@@ -1,26 +1,23 @@
-# Task 1
+# Task 2
 
 ## Prerequisites:
 Read Chapter 5 of .NET Book Zero and https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
 
 ## Description:
-There is a city in Programland with the name [Task1.City.Name] and [Task1.City.Population] people living in it.
-There are [Task1.City.SickPercentage] people that are sick with a deadly virus with the name [Task1.Virus.Name].
-The probability of death is [Task1.Virus.KillProbability].
+You have an available balance [Task2.Balance] that you need to show at the screen and decorate it with special signs [Task2.DecorativeSign]. 
+These special sighns should cover half of the padding [Task2.Padding] from the outer side.
+Balance should also be shown as currency and have 2 digits after a decimal point. 
 
 ## Goal:
-Compose a string that tells how many people were killed by the virus in the city.
+Compose a string that contains a balance, regarding rules mentioned above.
 
 ## Example input: 
-[Task1.City.Name] = "Virtualiev"  
-[Task1.City.Population] = 1400  
-[Task1.City.SickPercentage] = 0.3  
-[Task1.Virus.Name] = "Hlomanda"  
-[Task1.Virus.KillProbability] = 0.2  
-
+[Task2.Padding] = 10
+[Task2.Balance] = 15552.4567
+[Task2.DecorativeSign] = '@'
 ## Example output:
-"There are 420 people sick with Hlomanda in the city of Virtualiev, 84 of which died"
+@@@@@     $15,552.46     @@@@@
+
 
 ## Clarifications:
-Input variables that contains only numbers should be parsed to floats.  
-Numbers, if needed, should be rounded by casting to int. (For this task only).
+
