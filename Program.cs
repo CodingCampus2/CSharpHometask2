@@ -7,7 +7,7 @@ namespace HomeworkTemplate
     {
         static void Main(string[] args)
         {
-            Func<Task1, string> TaskSolver = task =>
+            Func<Task2, string> TaskSolver = task =>
             {
                 // Your solution goes here
                 // You can get all needed inputs from task.[Property]
@@ -16,7 +16,7 @@ namespace HomeworkTemplate
                 return "My answer";
             };
 
-            Task1.CheckSolver(TaskSolver);
+            Task2.CheckSolver(TaskSolver);
         }
     }
 }
